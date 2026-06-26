@@ -134,8 +134,8 @@ Median MRR for churned accounts ($1,764) is **higher** than for retained account
 
 Top predictors by Pearson correlation with `churn_flag`:
 
-| Feature | |r| | Interpretation |
-|---------|------|----------------|
+| Feature | \|r\| | Interpretation |
+|---------|-------|----------------|
 | `preceding_upgrade_flag` | **0.429** | Prior tier upgrade is the strongest linear churn signal |
 | `preceding_downgrade_flag` | 0.156 | Prior downgrade precedes churn |
 | `days_since_last_use` | 0.111 | Inactivity gap correlates with churn risk |
@@ -191,8 +191,8 @@ The champion model achieves **zero false positives** (Precision = 1.0) while mis
 
 SHAP TreeExplainer decomposes each prediction into per-feature contributions. The top drivers of churn probability:
 
-| Rank | Feature | Mean |SHAP| | Business Interpretation |
-|------|---------|------|------------------------|
+| Rank | Feature | Mean \|SHAP\| | Business Interpretation |
+|------|---------|---------------|-------------------------|
 | 1 | `text_length` | 3.5178 | Length of `reason_code` -- strong proxy for churn intent (potential leakage candidate) |
 | 2 | `days_since_last_use` | 0.3680 | Longer inactivity gaps increase churn risk |
 | 3 | `high_priority_tickets` | 0.3012 | Critical support issues drive attrition |
