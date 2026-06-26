@@ -25,3 +25,7 @@ data/saas_master_dataset_x6.csv
 # OS
 .DS_Store
 Thumbs.db
+
+# CatBoost
+catboost_info/
+

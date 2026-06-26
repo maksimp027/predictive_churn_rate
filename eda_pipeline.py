@@ -21,7 +21,7 @@ print("=" * 60)
 
 DATA_PATH = "data/saas_master_dataset_x6.csv"
 PLOTS_DIR = "eda_plots"
-OUTPUT_PATH = "data/model_ready_data.csv"
+OUTPUT_PATH = "model_ready_data.csv"
 
 os.makedirs(PLOTS_DIR, exist_ok=True)
 print(f"[OK] Директорія для графіків: '{PLOTS_DIR}/'")
