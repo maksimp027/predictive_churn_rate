@@ -1,12 +1,12 @@
-﻿Метрика,Значення
-Клiєнтiв у тестi,600
-Передбачено вiдтiк (модель),124
-Топ-20% пiд ризиком,120
-MRR пiд загрозою (мiс.),"$325,355.00"
-Утримано клiєнтiв (40%),48
-Валовий MRR утриманих (мiс.),"$261,318.00"
-Витрати на знижки 20% (мiс.),"$52,263.60"
-Чистий збережений MRR (мiс.),"$209,054.40"
-Чистий збережений ARR (рiк),"$2,508,652.80"
-MRR втрачений (мiс.),"$64,037.00"
-ROI програми утримання,400%
+﻿Metric,Value
+Clients in test set,600
+Predicted churn (model),124
+Top-20% at risk,120
+MRR at risk (monthly),"$325,355.00"
+Clients retained (40%),48
+Gross MRR retained (monthly),"$261,318.00"
+Discount cost 20% (monthly),"$52,263.60"
+Net saved MRR (monthly),"$209,054.40"
+Net saved ARR (annual),"$2,508,652.80"
+MRR lost (monthly),"$64,037.00"
+Retention program ROI,400%
