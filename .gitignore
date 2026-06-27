@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Data files (великі файли — не пушимо сирі дані)
+data/saas_master_dataset_x6.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CatBoost
+catboost_info/
+

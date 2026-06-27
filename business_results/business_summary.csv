@@ -1,0 +1,12 @@
+﻿Metric,Value
+Clients in test set,600
+Predicted churn (model),124
+Top-20% at risk,120
+MRR at risk (monthly),"$325,355.00"
+Clients retained (40%),48
+Gross MRR retained (monthly),"$261,318.00"
+Discount cost 20% (monthly),"$52,263.60"
+Net saved MRR (monthly),"$209,054.40"
+Net saved ARR (annual),"$2,508,652.80"
+MRR lost (monthly),"$64,037.00"
+Retention program ROI,400%
